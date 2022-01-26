@@ -10,6 +10,6 @@ var server = app.listen(3000, function() {
 });
 
 app.get('/', function (req, res) {
-
-  res.render('index', { title: 'Hey', message: 'Hello there!'});
+	//hello word
+   res.send('<h1>Hello world</h1>');
 })
